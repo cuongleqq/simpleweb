@@ -3,7 +3,7 @@ const app = express()
 const port = process.env.PORT || 3000
 
 app.get('/', (req, res) => {
-  res.send({result: "Hello World!"})
+  res.send({result: "Hello World2!"})
 })
 
 app.get('/secret', (req, res) => {
